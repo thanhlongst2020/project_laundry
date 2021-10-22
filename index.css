@@ -1,0 +1,57 @@
+html{
+	background-color: #15a6d4;
+}
+
+body{
+	background-color: #15a6d4;
+	margin-top: 10%;
+}
+
+.container-fluid{
+	background-color: white;
+	width: 400px;
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+.form-group{
+
+}
+.inputEmail, .inputPassword{
+	min-width: 90%;
+	margin: 5%;
+}
+
+.checkbox{
+	float: left;
+}
+
+.mind_check{
+	margin-bottom: 15px;
+}
+
+.list-group-item {
+	background-color: #f3f3f3;
+	border-color: white;
+	font-weight: 500;
+	font-size: 20px
+}
+
+.login-help {
+    margin: 20px 0;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px #2a85a1;
+}
+.login-help > p >a{
+	color: white;
+}
+
+.btn-default{
+	border-radius: 15px;
+	width: 90px;
+	background: #cde5ef;
+	font-weight: 600; 
+}

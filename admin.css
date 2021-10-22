@@ -1,0 +1,316 @@
+.sidebar{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.list-group{
+	margin-bottom: 0px;
+}
+
+.body{
+	padding: 0px;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row{
+	margin: 0;
+}
+
+h1{
+	margin-top: 0;
+}
+
+hr{
+	margin-bottom: 7px;
+}
+.pagination{
+	margin: 0;
+}
+
+
+.form-control{
+	width: 75px;
+}
+
+.collect::after{
+	content: '\00A7';
+}
+
+.collect{
+	margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search{
+	float: right;
+}
+
+.check{
+	text-align: center;
+	cursor: pointer;
+}
+
+.check input{
+	cursor: pointer;
+}
+
+.navbar{
+	margin-bottom: 5px;
+}
+
+.brand{
+	margin-left: 15px;
+}
+
+.main{
+	background-color: white;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
+	padding: 0 10px;
+	margin-bottom: 50px;
+}
+
+.page{
+	float: right;
+}
+
+.form-group{
+	margin-bottom: 10px;	
+}
+
+.group-btn{
+	margin-bottom: 10px;
+}
+
+.control-label{
+	padding-left: 0px;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.lbl-search{
+	float: right;;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.panel{
+	margin-bottom: 0px;
+}
+
+.pull-right{
+	text-align: right;
+}
+
+.home{
+	font-weight: 200;
+}
+
+.sub-content{
+	margin-bottom: 20px;
+}
+
+/* .table{
+	min-height: 50px;
+} */
+
+.whole{
+	min-height: calc(100vh - 57px);
+	background-color: #222d32;
+}
+
+.glyphicon-th-large{
+	color: white;
+	font-size: 25px;
+	margin-top: 12px;
+}
+
+
+ /* Popup form của nút New Laundry */
+.bg-modal, .bg-modal-edit{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.85);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	z-index: 3;
+	position: fixed;
+}
+.modal-content{
+	width: 600px;
+	height: 365px;
+	background-color: white;
+	border-radius: 4px;
+	position: relative;
+	display: block;
+	visibility: hidden;
+}
+
+
+
+
+
+.bg-modal form{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.bg-modal-edit form{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.bg-modal .group-form{
+	margin-top: 15px;
+}
+
+.bg-modal-edit .group-form{
+	margin-top: 15px;
+}
+
+.group-form label{
+	text-align: right;
+}
+
+.inpt input {
+	height: 34px;
+	border: 1px solid #ccc;
+	width: 100%;
+	padding: 10px;
+}
+
+.new_name:focus{
+	border-color: rgb(166, 233, 250);
+}
+
+.save_newLaundry{
+	position: absolute;
+    bottom: -45px;
+    left: 165px;
+	width: 60px;
+    height: 34px;
+    border: 1px solid #ccc;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    font-weight: 400;
+    color: white;
+}
+
+.save_newLaundry:hover{
+	font-weight: 600;
+}
+
+
+
+.title{
+	width: 50%;
+}
+
+.title >h3{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin: 0;
+}
+
+.close{
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 30px;
+	font-weight: bold;
+	transform: rotate(45deg);
+}
+.close:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.group-form{
+	display: block;
+}
+
+.content{
+	background: #8bc0f2;
+    min-height: 545px;
+    position: relative;
+	height: 100%;
+	padding: 0 15px;
+	min-height: inherit;
+}
+
+.footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+	.collapsible:after {
+	content: "\2212";
+	color: rgb(151, 160, 179);
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	font-size: 20px;
+	}
+
+	.remove:after {
+	content: '\002B';
+	color: rgb(151, 160, 179);
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	font-size: 25px;
+	transform: rotate(45deg);
+	}
+
+	.actives:after {
+	content: '\002B';
+	}
+
+	.table{
+		margin-bottom: 35px;
+	}
+
+	.contents{
+		overflow: hidden;
+		transition: max-height 0.4s ease-out;
+	}
+
+	.list-group-item, .actives{
+		border-radius: 0;
+	}
+
+	.list-group-item{
+		background-color: #222d32;
+    	border: none;
+	}
+
+	.sub-item{
+		padding-left: 30px;
+	}
+
+	.five{
+		max-height: 480px;
+	}
+	
+	.ten{
+		max-height: 875px;
+	}
+
+	.button_a, .button_a:hover{
+		color: white;
+	}
+
